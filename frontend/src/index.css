@@ -382,3 +382,24 @@ select, textarea {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width : 1200PX) {
+  .container {
+    padding: 2rem;
+  }
+}
+
+@media (max-width : 768px){
+  .view-btn, .status-new, .status-closed {
+    width: 10rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+}
+
+@media (max-width : 576px){
+  .view-btn, .status-new, .status-closed {
+    width: 8rem;
+  }
+}
